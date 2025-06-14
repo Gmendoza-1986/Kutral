@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+ 
+ 
+}
+
+header {
+  background: #ccc;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+ 
+}
+
+header img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+    font-weight: bold;
+    display: flex;
+    width: 270px;
+    height: 124.156px;
+    padding: 6px 16px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    }
+nav li.active{
+    border-radius: 6px;
+    background: var(--Primary-Color-Dark, #5227CC);
+    color: #fff;
+    }
+
+section {
+  margin: 40px 0;
+  padding: 0px 16px;
+}
+
+section h1,
+section h2 {
+  margin-bottom: 20px;
+}
+#hero{
+  /* background-image: url("./assets/img/hero_image.png");*/
+   
+  
+    width: 100%;
+    height: 746px;
+    background-image: url(./assets/img/hero_image.png);
+    background-repeat: repeat-x;
+    background-position: center;
+   
+   
+}
+.contenedor{
+    display: flex;
+}
+.noticias {
+    display: flex;
+    gap: 20px;
+    width: 55%;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+
+}
+
+.noticias article {
+  background: #fff;
+  padding: 15px;
+  
+  align-items: center;
+  gap: 15px;
+  border: 1px solid #ddd;
+}
+
+.noticias img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+aside {
+  margin-top: 40px;
+}
+aside.instagram{
+    width: 40%;
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.videos{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    
+}
+/*noticias*/
+.noticias-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.trending-news {
+  flex: 1;
+  background-color: #e5e7eb;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.trending-news h2 {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.trending-news article {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.trending-news img {
+  width: 60px;
+  height: 60px;
+  background: #ccc;
+  border-radius: 5px;
+}
+
+.trending-news h3 {
+  font-size: 1em;
+  margin: 5px 0;
+}
+
+.featured-news {
+  flex: 1;
+  background-color: #4b5563;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.featured-news button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: #6b7280;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.featured-news h2 {
+  margin-top: 60px;
+  font-size: 1.4em;
+}
+
+.featured-news img {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 10px;
+}
+/*entrenadores*/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card img {
+  
+  border-radius: 10px;
+  margin-bottom: 15px;
+
+ 
+}
+
+.social {
+  margin-top: 10px;
+}
+
+.social a img {
+  height: 48px;
+  margin-right: 10px;
+}
+/*contacto*/
+.formulario h1, .ubicacion h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fila {
+  display: flex;
+  gap: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+textarea {
+  height: 200px;
+}
+
+.button-form {
+  align-self: flex-end;
+  padding: 8px 20px;
+  background-color: white;
+  border: 1px solid #5b2dff;
+  border-radius: 15px;
+  color: #5b2dff;
+  cursor: pointer;
+}
+
+.ubicacion img {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: 20px auto;
+}
+
+.direccion {
+  text-align: center;
+  margin-top: 10px;
+}
+/*horarios*/
+.horarios {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.grupo {
+  text-align: center;
+  max-width: 250px;
+}
+
+.foto {
+  width: 80px;
+  height: 80px;
+  background: #ddd;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.horario {
+  display: inline-block;
+  margin: 5px 0;
+  padding: 5px 10px;
+  border: 1px solid #888;
+  border-radius: 8px;
+  font-size: 14px;
+}
+footer {
+  background: #ccc;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+footer div {
+  flex: 1 1 200px;
+}
+
+footer h3 {
+  margin-bottom: 10px;
+}
+
+footer img {
+  height: 30px;
+  margin-right: 5px;
+}
+
+footer a {
+  text-decoration: underline;
+  color: #000;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #eee;
+  border: 1px solid #999;
+  cursor: pointer;
+}
