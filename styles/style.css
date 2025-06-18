@@ -246,7 +246,5 @@ textarea {
   #videos .video-item:not(:first-child) {
     display: none;
   }
-  article .noticias .noticia-item:last-child{
-    display: none;
-  }
+ 
 }
