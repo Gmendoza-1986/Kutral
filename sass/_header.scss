@@ -1,0 +1,48 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+
+  a {
+    color: #666;
+    text-decoration: underline;
+  }
+}
+
+section {
+  h1,
+  h2 {
+    margin-bottom: 20px;
+  }
+}
+
+/* Menu */
+.navbar {
+  background-color: #000;
+
+  img {
+    height: 70px;
+  }
+
+  .nav-item {
+    a {
+      color: orange;
+      font-size: 18px;
+
+      &:hover {
+        color: #fff;
+        text-decoration: underline;
+      }
+
+      &.nav-link.active {
+        color: #fff;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .navbar-toggler {
+    background-color: orange;
+    border-color: #f4f4f4;
+  }
+}

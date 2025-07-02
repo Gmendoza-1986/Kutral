@@ -1,0 +1,14 @@
+
+@use "header";
+@use "hero-image";
+@use "home";
+@use "entrenadores";
+@use "horarios";
+@use "contacto";
+@use "noticias";
+@use "footer";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

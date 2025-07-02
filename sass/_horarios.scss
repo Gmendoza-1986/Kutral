@@ -1,0 +1,30 @@
+/* horarios */
+.horarios {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 20px;
+  flex-wrap: wrap;
+
+  .grupo {
+    text-align: center;
+    max-width: 250px;
+  }
+
+  .foto {
+    width: 80px;
+    height: 80px;
+    background: #ddd;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+  }
+
+  .horario {
+    display: inline-block;
+    margin: 5px 0;
+    padding: 5px 10px;
+    border: 1px solid #888;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: orange;
+  }
+}
