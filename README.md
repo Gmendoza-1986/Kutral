@@ -4,7 +4,7 @@ Sitio web oficial del club deportivo **DPV Kutral**, enfocado en el desarrollo d
 
 ## 🌐 Demo en vivo
 
-[https://tuusuario.github.io/dpv-kutral](https://tuusuario.github.io/dpv-kutral)
+(https://github.com/Gmendoza-1986/Kutral)
 
 ## 📌 Descripción
 
